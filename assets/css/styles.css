@@ -1,12 +1,22 @@
+body{
+    background-color: rgb(116, 190, 246);
+    
+}
+
 .Header {
-
+   display: flex;
+    
+    
 };
+header p {
+    font-size: 25px;
+}
 
-.Hero {
 
-};
+
 
 .About-Me {
+    display: flex
 
 };
 
