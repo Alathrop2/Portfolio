@@ -1,33 +1,86 @@
 body{
+    
     background-color: rgb(116, 190, 246);
     
+    
 }
-
+img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border-style: double;
+    border-radius: 50px;
+    justify-content: flex-start;
+}
 .Header {
    display: flex;
-    
-    
-};
-header p {
-    font-size: 25px;
+   flex-wrap: wrap;
+   background-color: aquamarine;
+   border: 5px solid black;
+   align-items: center
+}
+
+.HeaderP {
+    display: flex;
+    font-weight: bolder;
+    justify-content: space-around;
+    margin: 15px;
+    font-size: large;
+}
+button{
+display: flex;
+justify-content: space-evenly;
+align-items: flex-end;
+display: inline;
+
 }
 
 
-
-
+.main{
+    display: flex;
+    display: block;
+    align-items: center;
+    background-color: beige;
+    border: 3px solid black;
+    font-size: large;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
 .About-Me {
-    display: flex
-
-};
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 5px solid black;
+    
+}
 
 .Github {
-
-};
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 5px solid black;
+}
 .Email {
+    display: flex;
+    border: 5px solid black;
+    justify-content: space-evenly;
+    display: block;
 
-};
+}
 
 .Footer {
-
-};
+display: flex;
+justify-content: center;
+background-color: aqua;
+border: 5px solid black;
+display: block;
+font-size: large;
+font-weight: bold;
+}
